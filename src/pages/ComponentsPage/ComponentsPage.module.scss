@@ -1,0 +1,21 @@
+.title {
+  font-size: 32px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.navigation {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navLink {
+  font-size: 22px;
+  color: black;
+}
+
+.activeNavLink {
+  color: orange;
+}

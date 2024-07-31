@@ -1,0 +1,18 @@
+.header {
+  background-color: cornflowerblue;
+  padding: 20px 0;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  font-size: 22px;
+  color: white;
+}
+
+.activeNavLink {
+  color: orange;
+}
