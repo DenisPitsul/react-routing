@@ -103,7 +103,7 @@ function AboutPage() {
             </p>
           </div>
         </div>
-      </і>
+      </section>
     </>
   );
 }
