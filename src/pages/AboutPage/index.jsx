@@ -4,11 +4,11 @@ import modules from "./AboutPage.module.scss";
 function AboutPage() {
   return (
     <>
-      <div className={modules.resume}>
+      <section className={modules.resume}>
         <img className={modules.photo} src="/photo.jpg" alt="My photo" />
         <div className={modules.infoWrapper}>
           <div className={modules.infoBlock}>
-            <h2 className={modules.name}>Denis Pitsul</h2>
+            <h1 className={modules.name}>Denis Pitsul</h1>
             <p className={modules.subtitle}>JavaScript Fullstack developer</p>
           </div>
           <div className={modules.infoBlock}>
@@ -103,7 +103,7 @@ function AboutPage() {
             </p>
           </div>
         </div>
-      </div>
+      </і>
     </>
   );
 }

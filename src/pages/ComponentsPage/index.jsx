@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
-import UserList from "../../components/UserList";
 import { NavLink, Route, Routes } from "react-router-dom";
+import UserList from "../../components/UserList";
 import modules from "./ComponentsPage.module.scss";
 import UserCard from "../../components/UserCard";
 
